@@ -1,0 +1,41 @@
+Dependencies for Project 'Application', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x5BB3DDF1)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\main.c)(0x5BC8CE4C)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (HAL/common.h)(0x5BC661B6)
+I (HAL/GPIO.h)(0x5BC663CD)
+I (HAL/PWM.h)(0x5BC663CB)
+I (HAL/uart.h)(0x5BC663C8)
+I (HAL/GPIO_HW_Types.h)(0x5BC661F8)
+I (HAL/PWM_HW_Types.h)(0x5BC661A5)
+I (HAL/UART_HW_Types.h)(0x5BC66215)
+I (HAL/HALIF.h)(0x5BC661C7)
+I (HAL/Systic.h)(0x5BC663AB)
+F (.\HAL\GPIO.c)(0x5BC661BD)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (HAL\GPIO.h)(0x5BC663CD)
+I (HAL\Common.h)(0x5BC661B6)
+I (HAL\GPIO_HW_Types.h)(0x5BC661F8)
+F (.\HAL\PWM.c)(0x5BC661B2)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\pwm.o --omf_browse .\pwm.crf --depend .\pwm.d)
+I (HAL\PWM.h)(0x5BC663CB)
+I (HAL\Common.h)(0x5BC661B6)
+I (HAL\PWM_HW_Types.h)(0x5BC661A5)
+F (.\HAL\Common.h)(0x5BC661B6)()
+F (.\HAL\GPIO.h)(0x5BC663CD)()
+F (.\HAL\GPIO_HW_Types.h)(0x5BC661F8)()
+F (.\HAL\PWM.h)(0x5BC663CB)()
+F (.\HAL\PWM_HW_Types.h)(0x5BC661A5)()
+F (.\HAL\uart.h)(0x5BC663C8)()
+F (.\HAL\UART_HW_Types.h)(0x5BC66215)()
+F (.\HAL\uart.c)(0x5BC8811F)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (HAL\uart.h)(0x5BC663C8)
+I (HAL\Common.h)(0x5BC661B6)
+I (HAL\UART_HW_Types.h)(0x5BC66215)
+F (.\HAL\HALIF.h)(0x5BC661C7)()
+F (.\HAL\HALIF.c)(0x5BC6627D)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\halif.o --omf_browse .\halif.crf --depend .\halif.d)
+I (HAL\HALIF.h)(0x5BC661C7)
+I (HAL\Common.h)(0x5BC661B6)
+I (HAL\GPIO.h)(0x5BC663CD)
+I (HAL\PWM.h)(0x5BC663CB)
+F (.\HAL\Systic.c)(0x5BC8CE4D)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\systic.o --omf_browse .\systic.crf --depend .\systic.d)
+I (HAL\Systic.h)(0x5BC663AB)
+I (HAL\Common.h)(0x5BC661B6)
+F (.\HAL\Systic.h)(0x5BC663AB)()

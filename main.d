@@ -1,0 +1,10 @@
+.\main.o: main.c
+.\main.o: HAL/common.h
+.\main.o: HAL/GPIO.h
+.\main.o: HAL/PWM.h
+.\main.o: HAL/uart.h
+.\main.o: HAL/GPIO_HW_Types.h
+.\main.o: HAL/PWM_HW_Types.h
+.\main.o: HAL/UART_HW_Types.h
+.\main.o: HAL/HALIF.h
+.\main.o: HAL/Systic.h
